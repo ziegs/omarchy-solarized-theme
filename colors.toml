@@ -1,36 +1,39 @@
-# Solarized Dark - Ethan Schoonover (https://ethanschoonover.com/solarized/)
+# Selenized Dark - Jan Warchol (https://github.com/jan-warchol/selenized)
+# A redesign of Solarized with a fine-tuned, higher-contrast palette.
 # Omarchy 4.0 (Quattro) semantic palette. Every app config (alacritty, foot,
 # kitty, ghostty, hyprland, btop, waybar/shell, neovim aether fallback, vscode,
 # ...) is generated from these keys via $OMARCHY_PATH/default/themed/*.tpl.
+# Neovim uses maxmx03/solarized.nvim (palette = "selenized"), whose accent
+# values are identical to the ones below.
 
 mode = "dark"
 
-accent = "#268bd2"
-selection = "#073642"
-muted = "#586e75"
+accent = "#4695f7"
+selection = "#2d5b69"
+muted = "#2d5b69"
 
-background = "#002b36"
-dark_background = "#00252e"
-darker_background = "#001f27"
-lighter_background = "#073642"
+background = "#103c48"
+dark_background = "#0d333d"
+darker_background = "#0a2a33"
+lighter_background = "#184956"
 
-foreground = "#839496"
-dark_foreground = "#657b83"
-light_foreground = "#93a1a1"
-bright_foreground = "#fdf6e3"
+foreground = "#adbcbc"
+dark_foreground = "#72898f"
+light_foreground = "#cad8d9"
+bright_foreground = "#cad8d9"
 
-red = "#dc322f"
-yellow = "#b58900"
-orange = "#cb4b16"
-green = "#859900"
-cyan = "#2aa198"
-blue = "#268bd2"
-magenta = "#d33682"
-brown = "#7c5c3b"
+red = "#fa5750"
+yellow = "#dbb32d"
+orange = "#ed8649"
+green = "#75b938"
+cyan = "#41c7b9"
+blue = "#4695f7"
+magenta = "#f275be"
+brown = "#a5703f"
 
-bright_red = "#cb4b16"
-bright_yellow = "#b58900"
-bright_green = "#859900"
-bright_cyan = "#2aa198"
-bright_blue = "#268bd2"
-bright_magenta = "#6c71c4"
+bright_red = "#ff665c"
+bright_yellow = "#ebc13d"
+bright_green = "#84c747"
+bright_cyan = "#53d6c7"
+bright_blue = "#58a3ff"
+bright_magenta = "#ff84cd"
