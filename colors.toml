@@ -1,23 +1,36 @@
-accent = "#268bd2"
-cursor = "#839496"
-foreground = "#839496"
-background = "#002b36"
-selection_foreground = "#93a1a1"
-selection_background = "#073642"
+# Solarized Dark - Ethan Schoonover (https://ethanschoonover.com/solarized/)
+# Omarchy 4.0 (Quattro) semantic palette. Every app config (alacritty, foot,
+# kitty, ghostty, hyprland, btop, waybar/shell, neovim aether fallback, vscode,
+# ...) is generated from these keys via $OMARCHY_PATH/default/themed/*.tpl.
 
-color0 = "#073642"
-color1 = "#dc322f"
-color2 = "#859900"
-color3 = "#b58900"
-color4 = "#268bd2"
-color5 = "#d33682"
-color6 = "#2aa198"
-color7 = "#eee8d5"
-color8 = "#002b36"
-color9 = "#cb4b16"
-color10 = "#586e75"
-color11 = "#657b83"
-color12 = "#839496"
-color13 = "#6c71c4"
-color14 = "#93a1a1"
-color15 = "#fdf6e3"
+mode = "dark"
+
+accent = "#268bd2"
+selection = "#073642"
+muted = "#586e75"
+
+background = "#002b36"
+dark_background = "#00252e"
+darker_background = "#001f27"
+lighter_background = "#073642"
+
+foreground = "#839496"
+dark_foreground = "#657b83"
+light_foreground = "#93a1a1"
+bright_foreground = "#fdf6e3"
+
+red = "#dc322f"
+yellow = "#b58900"
+orange = "#cb4b16"
+green = "#859900"
+cyan = "#2aa198"
+blue = "#268bd2"
+magenta = "#d33682"
+brown = "#7c5c3b"
+
+bright_red = "#cb4b16"
+bright_yellow = "#b58900"
+bright_green = "#859900"
+bright_cyan = "#2aa198"
+bright_blue = "#268bd2"
+bright_magenta = "#6c71c4"
