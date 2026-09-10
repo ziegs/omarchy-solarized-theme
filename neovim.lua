@@ -1,5 +1,5 @@
 return {
-  -- add solarized
+  -- add solarized.nvim (selenized palette)
   {
     "maxmx03/solarized.nvim",
     opts = {
